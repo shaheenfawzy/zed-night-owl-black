@@ -8,10 +8,21 @@ Night Owl Black is a dark theme optimized for OLED displays and fans of pure bla
 
 ## Installation
 
-1. Open Zed
-2. Open the Extensions panel (`cmd+shift+x` on macOS, `ctrl+shift+x` on Linux)
-3. Search for "Night Owl Black"
-4. Click Install
+### Manual Installation
+
+**Linux:**
+```bash
+git clone https://github.com/shaheenfawzy/zed-night-owl-black.git \
+  ~/.local/share/zed/extensions/installed/night-owl-black
+```
+
+**macOS:**
+```bash
+git clone https://github.com/shaheenfawzy/zed-night-owl-black.git \
+  ~/Library/Application\ Support/Zed/extensions/installed/night-owl-black
+```
+
+After cloning, restart Zed and select the theme from Settings > Theme.
 
 ## Color Palette
 
